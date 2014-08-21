@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8A20FE87-21AE-4AC2-A77E-52C9750EF008</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EasyMessaging</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E1F6FB6B-63F1-44B1-8A33-2B2A848FCB3F</key>
+		<string>https://github.com/aleksey1646/EasyMessaging.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EasyMessaging/EasyMessaging.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E1F6FB6B-63F1-44B1-8A33-2B2A848FCB3F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/aleksey1646/EasyMessaging.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E1F6FB6B-63F1-44B1-8A33-2B2A848FCB3F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E1F6FB6B-63F1-44B1-8A33-2B2A848FCB3F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EasyMessaging</string>
+		</dict>
+	</array>
+</dict>
+</plist>
