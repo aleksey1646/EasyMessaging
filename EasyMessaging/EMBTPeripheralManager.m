@@ -24,4 +24,6 @@ static EMBTPeripheralManager *_sharedManager = nil;
     return _sharedManager;
 }
 
+
+
 @end

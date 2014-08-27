@@ -22,6 +22,9 @@
 		CDACAE2719A5CCEE008A2D79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDACAE0619A5CCEE008A2D79 /* UIKit.framework */; };
 		CDACAE2F19A5CCEE008A2D79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDACAE2D19A5CCEE008A2D79 /* InfoPlist.strings */; };
 		CDACAE3119A5CCEE008A2D79 /* EasyMessagingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDACAE3019A5CCEE008A2D79 /* EasyMessagingTests.m */; };
+		CDC709E019ADF20400B37362 /* EMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC709DF19ADF20400B37362 /* EMConstants.m */; };
+		CDC709E519ADF4CD00B37362 /* BTLECentralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC709E219ADF4CD00B37362 /* BTLECentralViewController.m */; };
+		CDC709E619ADF4CD00B37362 /* BTLEPeripheralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC709E419ADF4CD00B37362 /* BTLEPeripheralViewController.m */; };
 		CDDE657219AB385B00367073 /* EMBTCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDE657119AB385B00367073 /* EMBTCentralManager.m */; };
 		CDDE657519AB387C00367073 /* EMBTPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDE657419AB387C00367073 /* EMBTPeripheralManager.m */; };
 		CDDE657719AB3A1F00367073 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDE657619AB3A1F00367073 /* CoreBluetooth.framework */; };
@@ -58,6 +61,12 @@
 		CDACAE2C19A5CCEE008A2D79 /* EasyMessagingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyMessagingTests-Info.plist"; sourceTree = "<group>"; };
 		CDACAE2E19A5CCEE008A2D79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CDACAE3019A5CCEE008A2D79 /* EasyMessagingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyMessagingTests.m; sourceTree = "<group>"; };
+		CDC709DE19ADF20400B37362 /* EMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMConstants.h; sourceTree = "<group>"; };
+		CDC709DF19ADF20400B37362 /* EMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMConstants.m; sourceTree = "<group>"; };
+		CDC709E119ADF4CD00B37362 /* BTLECentralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTLECentralViewController.h; path = "../../../../../Desktop/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.h"; sourceTree = "<group>"; };
+		CDC709E219ADF4CD00B37362 /* BTLECentralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTLECentralViewController.m; path = "../../../../../Desktop/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m"; sourceTree = "<group>"; };
+		CDC709E319ADF4CD00B37362 /* BTLEPeripheralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTLEPeripheralViewController.h; path = "../../../../../Desktop/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.h"; sourceTree = "<group>"; };
+		CDC709E419ADF4CD00B37362 /* BTLEPeripheralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTLEPeripheralViewController.m; path = "../../../../../Desktop/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m"; sourceTree = "<group>"; };
 		CDDE657019AB385B00367073 /* EMBTCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMBTCentralManager.h; sourceTree = "<group>"; };
 		CDDE657119AB385B00367073 /* EMBTCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMBTCentralManager.m; sourceTree = "<group>"; };
 		CDDE657319AB387C00367073 /* EMBTPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMBTPeripheralManager.h; sourceTree = "<group>"; };
@@ -166,9 +175,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CDC709DD19ADF1E900B37362 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CDC709DE19ADF20400B37362 /* EMConstants.h */,
+				CDC709DF19ADF20400B37362 /* EMConstants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
 		CDDE656E19AB37E600367073 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				CDC709E119ADF4CD00B37362 /* BTLECentralViewController.h */,
+				CDC709E219ADF4CD00B37362 /* BTLECentralViewController.m */,
+				CDC709E319ADF4CD00B37362 /* BTLEPeripheralViewController.h */,
+				CDC709E419ADF4CD00B37362 /* BTLEPeripheralViewController.m */,
+				CDC709DD19ADF1E900B37362 /* Constants */,
 				CDDE656F19AB37F300367073 /* BluetoothManager */,
 			);
 			name = Managers;
@@ -285,10 +308,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDACAE1C19A5CCEE008A2D79 /* EMViewController.m in Sources */,
+				CDC709E519ADF4CD00B37362 /* BTLECentralViewController.m in Sources */,
 				CDACAE1319A5CCEE008A2D79 /* EMAppDelegate.m in Sources */,
+				CDC709E619ADF4CD00B37362 /* BTLEPeripheralViewController.m in Sources */,
 				CDACAE0F19A5CCEE008A2D79 /* main.m in Sources */,
 				CDDE657519AB387C00367073 /* EMBTPeripheralManager.m in Sources */,
 				CDDE657219AB385B00367073 /* EMBTCentralManager.m in Sources */,
+				CDC709E019ADF20400B37362 /* EMConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

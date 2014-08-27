@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface EMBTCentralManager : NSObject
+@interface EMBTCentralManager : NSObject 
 
 + (instancetype)sharedManager;
 
