@@ -6,6 +6,8 @@ build/
 Pods/
 Podfile.lock
 
+*/UserInterfaceState.xcuserstate
+
 *.mode1
 *.mode1v3
 *.mode2v3
